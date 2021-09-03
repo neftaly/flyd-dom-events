@@ -1,0 +1,44 @@
+{
+  "name": "flyd-dom-events",
+  "version": "1.0.0",
+  "description": "DOM events as Flyd streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier --check \"*.{js,ts,json}\" && node test.js",
+    "format": "prettier --write \"*.{js,ts,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neftaly/flyd-dom-events.git"
+  },
+  "keywords": [
+    "dom",
+    "event",
+    "events",
+    "flyd",
+    "stream",
+    "streams",
+    "addEventListener",
+    "removeEventListener",
+    "listener",
+    "pointer",
+    "mouse",
+    "touch"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/neftaly/flyd-dom-events",
+  "dependencies": {
+    "flyd": "^0.2.8"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "sinon": "^11.1.2",
+    "tape": "^5.3.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  }
+}
